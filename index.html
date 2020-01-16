@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Test4</title>
+</head>
+<body>
+<header>
+
+</header>
+<div class="header-wrap">
+    <h1>Guess the number ! </h1>
+</div>
+<div class="wrap">
+    <div class="display">
+        <div class="h1">enter a number from 1 to 100:</div>
+        <input
+                id="user-input"
+                type="text"
+                onkeypress="return enterHandler(event)"
+                placeholder="> ___ <"
+        >
+<!--        <button id="check-button">check!</button>-->
+        <div class="result"></div>
+        <div class="attempts">Number of attempts: <span class="attempts-counter"> </span></div>
+    </div>
+
+</div>
+
+<footer>
+    <div class="footer-wrap">
+        <p>by Andrey Dodonov 2020</p>
+        <div class="social">
+            <ul>
+                <li><a href="https://t.me/ElKaban89"><i class="fa fa-telegram fa-2x" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.facebook.com/andrew.dodonov"><i class="fa fa-facebook-f fa-2x" aria-hidden="true"></i></a></li>
+                <li><a href="https://github.com/AndreyDodonov/guesNumber"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
+            </ul>
+
+        </div>
+    </div>
+
+</footer>
+
+<script src="script/index.js" defer></script>
+</body>
+</html>
